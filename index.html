@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Checklist App</h1>
+    <div class="checklist-container">
+        <h2>New Employee Checklist</h2>
+        <ul id="employeeChecklist"></ul>
+        <h2>New Devices Checklist</h2>
+        <ul id="deviceChecklist"></ul>
+    </div>
+    <input type="text" id="itemInput" placeholder="Enter item to add...">
+    <select id="checklistType">
+        <option value="employee">Employee</option>
+        <option value="device">Device</option>
+    </select>
+    <button id="addButton">Add Item</button>
+    <script src="script.js"></script>
+</body>
+</html>
